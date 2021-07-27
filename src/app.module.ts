@@ -5,7 +5,7 @@ import TestResolver from './test.resolver';
 @Module({
   imports: [
     GraphQLModule.forRoot({
-      autoSchemaFile: true,
+      typePaths: ['./**/*.graphql'],
     }),
   ],
   providers: [TestResolver],

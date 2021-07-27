@@ -1,0 +1,7 @@
+type TestModel {
+  count: Int!
+}
+
+type Query {
+  test: TestModel!
+}
